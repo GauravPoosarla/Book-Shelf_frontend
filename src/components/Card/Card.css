@@ -1,0 +1,52 @@
+.card {
+  display: flex;
+  flex-direction: column;
+  height: 300px;
+  width: 200px;
+  margin-top: 15px;
+  border: 1px solid black;
+}
+
+.card-image img {
+  height: 150px;
+  width: 200px;
+}
+.card-content {
+  height: 150px;
+}
+
+.card-name {
+  height: 100px;
+  text-align: center;
+  padding-top: 20px;
+}
+
+.card-orange {
+  background-color: orange !important;
+}
+
+.card-white {
+  background-color: white !important;
+}
+
+
+.card-font-orange{
+  color: orange;
+}
+
+.card-font-black {
+  color: black;
+}
+
+.engagements {
+  display: flex;
+  flex-direction: row;
+  justify-content: space-between;
+  padding-left: 10px;
+  padding-right: 10px;
+}
+
+.engagements img {
+  height: 20px;
+  width: 20px;
+}
